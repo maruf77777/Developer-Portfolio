@@ -30,7 +30,7 @@ span {
 
 }
 
-.half text .link-button {
+.link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
