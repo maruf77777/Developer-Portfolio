@@ -14,9 +14,9 @@ span {
     color: orange;
 }
 
-section {
+.flex {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .half {
@@ -30,7 +30,7 @@ section {
 
 }
 
-.link-button {
+.half text .link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
@@ -59,4 +59,26 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 10px;
+    border-left: 7px solid red;
+    border-right: 7px solid blue;
+}
+
+.last-background {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+
+}
+
+footer p {
+    text-align: center;
 }
